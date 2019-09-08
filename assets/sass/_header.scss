@@ -1,0 +1,37 @@
+header {
+    //height: 50px;
+    background: black;
+    color: white;
+    overflow: auto;
+  }
+  
+  .logo {
+    // width: 50%;
+    line-height: 50px;
+    padding: 0 50px;
+    float: left;
+  }
+  
+  .links {
+    // width: 50%;
+    text-align: center;
+    float: right;
+    line-height: 50px;
+    margin-right: 20px;
+    li {
+      padding: 0 20px;
+      display: inline-block;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      &:hover {
+        color: $darkgray;
+      }
+      &.regButton {
+          background: $pink;
+          padding: 5px 10px;
+          border-radius: 5px;
+      }
+    }
+  }

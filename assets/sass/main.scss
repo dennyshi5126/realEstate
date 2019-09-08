@@ -1,5 +1,6 @@
 @import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
 @import "reset";
+@import "variables";
 
 * {
   box-sizing: border-box;
@@ -9,37 +10,4 @@ body {
   // background: purple;
 }
 
-header {
-  height: 50px;
-  background: black;
-  color: white;
-  // overflow: auto;
-  button {
-    background: pink;
-  }
-}
-
-.logo {
-  width: 50%;
-  line-height: 50px;
-  padding: 0 50px;
-  float: left;
-}
-
-.links {
-  width: 50%;
-  text-align: center;
-  float: left;
-  line-height: 50px;
-  ul li {
-    padding: 0 20px;
-    display: inline-block;
-  }
-  a{
-    text-decoration: none;
-    color: white;
-  }
-  a:hover {
-    color: #ccc;
-  }
-}
+@import "header";

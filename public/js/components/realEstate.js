@@ -60,7 +60,7 @@ var Header = function (_Component) {
               _react2.default.createElement(
                 'a',
                 { href: '#' },
-                'Contact Me'
+                'Create Ads'
               )
             ),
             _react2.default.createElement(
@@ -85,8 +85,8 @@ var Header = function (_Component) {
               'li',
               null,
               _react2.default.createElement(
-                'button',
-                null,
+                'a',
+                { href: '#', className: 'regButton' },
                 'Register'
               )
             )

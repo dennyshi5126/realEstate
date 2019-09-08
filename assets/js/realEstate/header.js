@@ -9,10 +9,10 @@ export default class Header extends Component {
           <div className = 'logo'>logo</div>
           <div className = 'links'>
             <ul>
-                <li><a href='#'>Contact Me</a></li>
+                <li><a href='#'>Create Ads</a></li>
                 <li><a href='#'>About Us</a></li>
                 <li><a href='#'>Log In</a></li>
-                <li><button>Register</button></li>
+                <li><a href='#' className = 'regButton'>Register</a></li>
             </ul>
           </div>
       </header>
