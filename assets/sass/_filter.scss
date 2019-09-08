@@ -1,0 +1,46 @@
+.filters {
+    width: 30%;
+    background: $gray;
+    h4{
+        padding: 20px 0 0 20px;
+        text-transform: uppercase;
+        
+    }
+    select{
+        display: block;
+        margin: 20px;
+        width: 80%;
+        border-radius: 5px;
+    }
+}
+
+.range{
+    span{
+        display: block;
+        margin: 40px 0 10px 20px;
+        color: $darkgray;
+    }
+    input{
+        margin-left: 20px;
+        border-radius: 5px;
+        width: 100px;
+    }
+}
+
+.extras {
+    p{
+        padding: 40px 0 0 20px; 
+        color: $darkgray;
+    }
+    label{
+        display: block;
+        width:80%;
+        margin: 20px 10px 0 20px;
+        input{
+            float: right;
+        }
+        hr{
+            color: $gray;
+        }
+    }
+}

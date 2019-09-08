@@ -1,6 +1,8 @@
 import React, { Component} from 'react'
 import ReactDOM from 'react-dom'
 import Header from './header.js'
+import Filter from './filter.js'
+import Listings from './listings.js'
 
 class App extends Component {
   constructor () {
@@ -17,7 +19,12 @@ class App extends Component {
 
   render () {
     return (
-      <div><Header /></div>
+      <div><Header />
+        <section>
+          <Filter />
+          <Listings />
+        </section>
+      </div>
     )
   }
 
